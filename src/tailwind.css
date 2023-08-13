@@ -1,0 +1,18 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .button{
+        @apply rounded-full w-56 p-1.5 px-8 bg-white font-semibold
+         border-gray-400 border-solid border-[1px] cursor-pointer
+    }
+    .span-blue{
+        color: rgb(105, 161, 246);
+        text-transform: capitalize;
+    }
+   .span-hr{
+      @apply  inline-block w-24 mb-[4px] text-gray-400
+    }
+} 
+
+
